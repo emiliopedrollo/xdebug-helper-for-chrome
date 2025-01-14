@@ -53,14 +53,14 @@ export class CookieHelper {
         if (!this.origin) {
             return ;
         }
-        const cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId(), sameSite: 'lax', path: '/'};
+        const cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId()};
         return await chrome.cookies.get(cookieDetails);
     }
 
     async deleteCookies(names) {
         for (let name of names) {
             CookieHelper.checkCookieName(name);
-            let cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId(), sameSite: 'lax', path: '/'};
+            let cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId()};
             await chrome.cookies.remove(cookieDetails)
         }
     }
