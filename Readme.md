@@ -11,7 +11,7 @@ Alt+Shift+X (Cmd+Shift+X on Mac) opens the popup, or toggles the debugging state
 
 How to install this extension?
 ------------------------------
-**Stable version:** Go to the [Google Chrome Web Store](https://chrome.google.com/webstore/detail/xdebug-chrome-extension/oiofkammbajfehgpleginfomeppgnglk)
+**Stable version:** Go to the [Google Chrome Web Store](https://chrome.google.com/webstore/detail/xdebug-chrome-extension/gglmchnmmpgdninpcjhbjdoldimaoiho)
 and click "Add to Chrome".
 
 **Development version:** [Download the source from GitHub](https://github.com/emiliopedrollo/xdebug-helper-for-chrome/archive/refs/heads/master.zip)
